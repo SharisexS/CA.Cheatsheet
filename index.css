@@ -1,0 +1,20 @@
+*{
+    font-family: 'Montserrat';
+}
+
+.header {
+    text-align: center;
+    border: 1px solid red;
+}
+
+ul {
+    font-size: x-large;
+}
+
+li {
+    line-height: 50px;
+}
+
+.main {
+    border-radius: 50%;
+}

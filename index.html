@@ -21,13 +21,13 @@
 </head>
 <body>
  <!--Heading and Title-->   
- <Section class="header">
+ <header class="header">
      <h1>The Box Model</h1>
      <p>Sharise The Web Developer</p>
- </Section>
+ </header>
 
 <!--Explanation Section-->
- <Section class="explain">
+ <section class="explain">
 
      <div class="paragraph">
      <p>From this site we will learn what the box model is, how it is used, and how it is applied to various websites. 
@@ -39,13 +39,13 @@
          of the behavior defined in the box model. The model defines how the different parts of a box — margin, border, padding,
           and content — work together to create a box that you can see on a page.</p>
         </div>
-</Section>
+</section>
 
 <!--Element examples-->
 <section class="example">       
     <p>Common Box model elements are padding, margins, and borders. </p>
 
-    <div class="padding"></div>
+    <article class="padding">  <!--  </div> This closing tag was here, but not wrapped around anything -->
         <ul>Padding</ul>
             <li>Padding is typically used to push the content away from the border.</li>
             <li>The padding sits around the content as white space; its size can be controlled using <em>padding</em> and related 
@@ -55,18 +55,18 @@
              first digit being the top of the box, second digit will be both the left & right of the box, and the third 
              digit be the bottom of the box. 2 values: first digit will be both top & bottom, second digit will be left & 
              right.</li>
-    </div>
+    </article>
 
-    <div class="margins">
+    <article class="margins">
         <ul>Margins</ul>
             <li>The margin is an invisible space around your box. It pushes other elements away from the box.</li>
             <li>Margins can have positive or negative values. Setting a negative margin on one side of your box can 
             cause it to overlap other things on the page. </li>
             <li>We can control all margins of an element at once using the <em>margin</em> property or the longhand equivalent: 
             <em>margin-top, margin-right, margin-bottom, margin-left</em>.</li>
-    </div>
+    </article>
 
-    <div class="borders">
+    <article class="borders">
         <ul>Borders</ul>
             <li>The border is drawn between the margin and the padding of a box. If you are using the standard box model, 
                 the size of the border is added to the width and height of the box. </li>
@@ -74,43 +74,46 @@
                 has a style, width, and color that can manipulate.</li>
             <li>You can set the width, style, or color of all four borders at once using the <em>border</em> property or 
             the longhand equivalent <em>border-top, border-right, border-bottom, border-left.</em></li>
-    </div>
- </Section>
+    </article>
+ </section>
 
  <!--Image #1 -->
- <Section class="images">
-     <div class="main">
+ <section class="images">
+     <figure class="main">
      <img src="./Resourses/Images/Screen Shot 2022-03-28 at 4.02.49 PM.png" alt="example.photo">
-     </div>
- </Section>
+     </figure>
+ </section>
 
  <!-- Element breakdown/Table use-->
  <section class="elements">
      <div class="e.borders">
          <table>
-            <tr>
-                <thead>
-                    <tr>
-                        <th>Elements</th>
-                    </tr>
-                </thead>
-                <td>Padding:</td>
-                <td class="edit">padding: 10px;</td>
-                <td class="edit">padding: 10em;</td>
-            </tr>
-            <tr>
-                <td>Margin</td>
-                <td class="edit">margin: 10px;</td>
-                <td class="edit">margin: 10em;</td>
-            </tr>
-            <tr>
-                <td>Border</td>
-                <td class="edit">border: 10px;</td>
-                <td class="edit">border: solid</td>
-            </tr>
+             <thead>
+                 <tr>
+                     <th>Elements</th>
+                 </tr>
+             </thead>
+             <tbody>
+                 <tr>
+                    <td>Padding:</td>
+                    <td class="edit">padding: 10px;</td>
+                    <td class="edit">padding: 10em;</td>
+                </tr>
+                <tr>
+                    <td>Margin</td>
+                    <td class="edit">margin: 10px;</td>
+                    <td class="edit">margin: 10em;</td>
+                </tr>
+                <tr>
+                    <td>Border</td>
+                    <td class="edit">border: 10px;</td>
+                    <td class="edit">border: solid</td>
+                </tr>
+             </tbody>
          </table>
      </div>
  </section>
+    
 <!--the end result-->
  <section class="result">
      <div class="better">
@@ -122,10 +125,10 @@
          <p>As a good friend of mine would say <em>"Complain all you want, but get it done".</em> That much I can do!</p>
      </div>
  </section>
+ </body>   
  <!--footer section-->
  <footer class="foot">
     <p><a href="https://discuss.codecademy.com/" target="_blank"><strong>Sharise.s</strong></a> on CodeAcadmey and 
         discord!</p>
 </footer>
-</body>
 </html>

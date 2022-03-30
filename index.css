@@ -7,14 +7,28 @@
     border: 1px solid red;
 }
 
+p {
+    line-height: 30px;
+}
 ul {
     font-size: x-large;
+    padding: 10px; /* This will create more space between the list and the borders */
 }
 
+/* Please make sure you have fixed your ul tag in the html so this style can be applied */
 li {
-    line-height: 50px;
+    line-height: 30px;
 }
 
+img {
+    height: 300px;
+    padding: 60px;
+    display: flex; /* the display and margin properties together center the image element */
+    margin: 0 auto;
+}    
+
+/* I don't think this is doing anything visibly
 .main {
     border-radius: 50%;
 }
+*/

@@ -1,20 +1,62 @@
 *{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
-.header {
+header {
     text-align: center;
-    border: 1px solid red;
 }
 
+.paragraph {
+    border: 1px solid red;
+    margin-bottom: 10px;
+}
+
+.example{
+    border: 1px solid blue;
+}
+
+.foot {
+    text-align: center;
+    font-size: 20px;
+}
+
+.edit {
+    font-family: 'Yanone Kaffeesatz';
+}
+
+
+em {
+font-weight: bold;
+}
+
+strong {
+    font-weight: bold;
+    color: skyblue;
+}
 ul {
+    color: #0377fc;
     font-size: x-large;
+    background-color: #4b3022;
+    font-weight: bold;
 }
 
 li {
-    line-height: 50px;
+    padding: 10px 5px;
 }
 
-.main {
-    border-radius: 50%;
+img {
+    padding-left: 500px;
+    width: 400px;
+    height: 300px;
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
+
+table, td {
+    font-family: Nunito;
+    border: 1px solid #333;
+}
+
+th {
+    background-color: red;
 }
